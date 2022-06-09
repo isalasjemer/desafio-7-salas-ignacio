@@ -63,5 +63,4 @@ io.on('connection', (socket)=>{
 })
 
 app.use('/api/productos', router)
-
 httpServer.listen( process.env.PORT ||3000, () => console.log('server on'))
